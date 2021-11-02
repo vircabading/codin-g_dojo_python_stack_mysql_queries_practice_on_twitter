@@ -1,5 +1,8 @@
 -- CREATE
 
+INSERT INTO users (first_name, last_name, handle) VALUES ('Dwayne','Johnson','The Rock');
+                                                        -- Creates a new user Dwayne Johnson
+
 -- RETRIEVE
 
 SHOW DATABASES;                                         -- show the databases in mySQL
