@@ -32,3 +32,5 @@ UPDATE users SET created_at = now(), updated_at=now() WHERE id=6;
                                                         -- update the created at and updated at of User with id of 6 to the current time
 
 -- DELETE
+
+DELETE FROM `twitter`.`users` WHERE (`id` = '6');       -- Delete user with ID of 6 from the users table in twitter database
